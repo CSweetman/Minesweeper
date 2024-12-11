@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap"); */
 
 @font-face {
     font-family: "Regular";
@@ -23,9 +22,6 @@
     .font-outline-flag {
         -webkit-text-stroke: 2px white;
     }
-    .font-outline-title {
-        /* -webkit-text-stroke: 10px #d59487; */
-    }
 }
 
 .diagonal-split-peach {
@@ -39,4 +35,3 @@
 .diagonal-split-high-contrast {
     background-image: -webkit-linear-gradient(315deg, #ff5aaa 50%, #ffffc6 50%);
 }
-/* ff5aaa */
