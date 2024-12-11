@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap"); */
+
+@font-face {
+    font-family: "Regular";
+    src:
+        local("Dongle-Regular"),
+        url("./../public/fonts/Dongle-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Light";
+    src:
+        local("Dongle-Light"),
+        url("./../public/fonts/Dongle-Light.ttf") format("truetype");
+}
+
+@layer base {
+    * {
+        paint-order: stroke fill;
+    }
+    .font-outline-flag {
+        -webkit-text-stroke: 2px white;
+    }
+    .font-outline-title {
+        /* -webkit-text-stroke: 10px #d59487; */
+    }
+}
+
+.diagonal-split-peach {
+    background-image: -webkit-linear-gradient(315deg, #d59485 50%, #d4d096 50%);
+}
+
+.diagonal-split-aquatic {
+    background-image: -webkit-linear-gradient(315deg, #76c5d4 50%, #d8ffdd 50%);
+}
+
+.diagonal-split-high-contrast {
+    background-image: -webkit-linear-gradient(315deg, #ff5aaa 50%, #ffffc6 50%);
+}
+/* ff5aaa */
