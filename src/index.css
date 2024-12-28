@@ -6,13 +6,13 @@
     font-family: "Regular";
     src:
         local("Dongle-Regular"),
-        url("./../public/fonts/Dongle-Regular.ttf") format("truetype");
+        url("./fonts/Dongle-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "Light";
     src:
         local("Dongle-Light"),
-        url("./../public/fonts/Dongle-Light.ttf") format("truetype");
+        url("./fonts/Dongle-Light.ttf") format("truetype");
 }
 
 @layer base {

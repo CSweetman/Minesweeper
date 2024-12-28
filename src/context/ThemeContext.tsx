@@ -11,9 +11,10 @@ const ThemeProvider = ({ children }: any) => {
 
     const changeTheme = (newTheme: Themes) => {
         setTheme(newTheme)
+        localStorage.setItem("theme", JSON.stringify(newTheme))
     }
 
-    return <ThemeContext.Provider value={{ theme, changeTheme}}>{children}</ThemeContext.Provider>
+    return <ThemeContext.Provider value={{ theme, changeTheme }}>{children}</ThemeContext.Provider>
 }
 
 export { ThemeContext, ThemeProvider }
